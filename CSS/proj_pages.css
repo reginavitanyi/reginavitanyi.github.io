@@ -1,0 +1,338 @@
+/********************************/
+/************ N A V *************/
+/********************************/
+
+.poject-p-nav {
+  display: flex;
+  background-color: none;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  width: 100%;
+  cursor: url("/IMG/Cursor/Cursor10x10_BASIC-01.svg"), auto;
+  position: sticky;
+  top: 0;
+}
+
+.proj-p-nav-left {
+  margin-right: 3rem;
+}
+
+/********************************/
+/********* I M A G E S **********/
+/********************************/
+
+/* PRE-PARALLAX */
+.project-p-main {
+  height: 100vh;
+  overflow: hidden;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-p-main-IMG {
+  height: auto;
+  width: 100%;
+  display: block;
+  z-index: -1;
+  /* position: absolute;
+  top: 0;
+  z-index: -1;*/
+  cursor: url("/IMG/Cursor/Cursor10x10_BASIC-01.svg"), auto;
+}
+
+/*parallax
+.project-p-main {
+  background-image: url("/IMG/Projects/Zine/Zine_Multiple_Snow_MAIN.png");
+  min-height: 500px;
+  max-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+/********************************/
+/***** T Y P O G R A P H Y ******/
+/********************************/
+
+.project-p-title {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 100;
+  text-decoration: none;
+  max-width: 30rem;
+}
+.project-p-cathegory {
+  margin-bottom: 3rem !important;
+  display: inline-block;
+}
+.project-p-features {
+  margin-bottom: 1.5rem;
+}
+.project-p-desctiprion {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+.project-p-exp-title {
+  margin-bottom: 2rem;
+}
+.project-p-signature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin: 4rem 0 8rem 0;
+}
+.signature {
+  display: block;
+}
+/********************************/
+/*********** G R I D ************/
+/********************************/
+
+/* D E S C R I P T I O N */
+.project-p-section-description {
+  margin-top: 6rem;
+  cursor: url("/IMG/Cursor/Cursor10x10_BASIC-01.svg"), auto;
+}
+
+.project-p-grid {
+  column-gap: 3.2rem;
+  row-gap: 3.2rem;
+  padding: 8rem 0;
+  border-top: #d0d0d0 1px solid;
+}
+.project-p-details-area {
+  column-gap: 1.8rem;
+}
+
+/* G A L L E R Y - G R I D */
+.project-p-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  column-gap: 0rem;
+  row-gap: 4rem;
+}
+.project-p-IMG-container {
+  display: flex;
+  justify-content: center;
+}
+.project-p-IMG {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-p-line {
+  margin: 8rem 0;
+  border-bottom: solid #d2d2d2 1px;
+  display: block;
+}
+.project-p-line-b {
+  margin: 0rem 0 8rem 0;
+  border-bottom: solid #d2d2d2 1px;
+  display: block;
+}
+/********************************/
+/****** S P E C I F I C S *******/
+/********************************/
+
+.zine-IMG-end {
+  max-height: 70rem;
+  width: auto;
+  justify-self: center;
+}
+.hourglass-IMG-phase {
+  max-width: 40%;
+}
+.hourglass_IMG_padding {
+  padding: 3rem;
+}
+.shadows-GIF {
+  width: 70%;
+  height: auto;
+}
+.crypto-def-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.sound-icon {
+  height: 1.2rem;
+  width: auto;
+}
+.crypto-def-details {
+  margin-left: 2.2rem;
+}
+.crypto-def-cathegory {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+.crypto-def-type {
+  font-weight: 400;
+  line-height: 1.4;
+}
+.crypto-IMG-2 {
+  max-height: 30rem;
+  width: auto;
+  margin-top: 2rem;
+}
+.bug-IMG {
+  position: relative;
+}
+.type_bug {
+  position: absolute;
+  max-width: 8rem;
+}
+.bug-1 {
+  top: 15rem;
+  left: 15rem;
+}
+.bug-1:hover {
+  transform: rotate(10deg);
+}
+.bug-2 {
+  top: 20rem;
+  left: 55rem;
+  transform: rotate(90deg);
+}
+.bug-2:hover {
+  transform: rotate(80deg);
+}
+.bug-3 {
+  top: 15rem;
+  right: 55rem;
+  transform: rotate(70deg);
+}
+.bug-3:hover {
+  transform: rotate(80deg);
+}
+.bug-4 {
+  top: 2rem;
+  right: 35rem;
+  transform: rotate(140deg);
+}
+.bug-4:hover {
+  transform: rotate(130deg);
+}
+.bug-5 {
+  bottom: 2rem;
+  right: 55rem;
+  transform: rotate(-150deg);
+}
+.bug-5:hover {
+  transform: rotate(-140deg);
+}
+.bug-6 {
+  bottom: 0rem;
+  left: 45rem;
+  transform: rotate(-110deg);
+}
+.bug-6:hover {
+  transform: rotate(-100deg);
+}
+.bug-7 {
+  bottom: 18rem;
+  right: 15rem;
+  transform: rotate(-90deg);
+}
+.bug-7:hover {
+  transform: rotate(-100deg);
+}
+.type_IMG_1 {
+  max-height: 50rem;
+  width: auto;
+  margin-top: -7rem;
+}
+.type_IMG_2 {
+  max-width: 80%;
+  justify-self: start;
+  margin-bottom: 1rem;
+}
+.print_IMG_1 {
+  max-width: 40rem;
+  height: auto;
+  display: block;
+  align-self: center;
+  justify-self: center;
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.print_IMG_1:hover {
+  transform: rotate(-8deg);
+  transition: all 0.3s;
+}
+.print_IMG_2 {
+  height: 30rem;
+  width: auto;
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.print_IMG_2:hover {
+  transform: rotate(8deg);
+  transition: all 0.3s;
+}
+.the-film {
+  justify-self: center;
+}
+.blanket_gif {
+  display: block;
+}
+.blanket-IMG-2 {
+  display: block;
+}
+.coming-soon {
+  font-family: "Bricolage Grotesque", sans-serif;
+  align-self: center;
+  justify-self: center;
+  display: block;
+  font-size: 2.8rem;
+  margin: 1rem auto 30rem auto;
+}
+.project-p-collab-riso-IMG {
+  max-width: 40rem;
+  justify-self: center;
+  margin-left: 3rem;
+}
+
+/********************************/
+/******* C O N T A C T S ********/
+/********************************/
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem auto 16rem auto;
+  gap: 3rem;
+}
+.contacts-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-title {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 100;
+  text-decoration: none;
+  max-width: 30rem;
+}
+.contacts-img {
+  display: block;
+  width: 2rem;
+  height: auto;
+}

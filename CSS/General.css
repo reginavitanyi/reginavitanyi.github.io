@@ -1,0 +1,210 @@
+/********************************/
+/********* C O L O R S **********/
+/********************************/
+
+/*Background: #000 | Text: #fff
+
+
+*/
+/********************************/
+/********* B A S I C S **********/
+/********************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  hanging-punctuation: first allow-end last;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Mulish, sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: black;
+}
+
+/********************************/
+/********  H E L P E R S *********/
+/********************************/
+.center {
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.grid {
+  display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 6rem 6rem 6rem;
+}
+.grid--3-cols {
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.gap-sm {
+  column-gap: 4rem;
+}
+.cursor-ant {
+  cursor: url("/IMG/Cursor/Cursor10x10_BASIC-01.svg"), auto;
+}
+
+.span-3 {
+  grid-column: span 3;
+}
+.span-2 {
+  grid-column: span 2;
+}
+.span-mid {
+  grid-column: 2/6;
+}
+.span-mid-sm {
+  grid-column: 3/5;
+}
+.span-start {
+  grid-column: 2/4;
+}
+.span-end {
+  grid-column: 4/7;
+}
+.span-all {
+  grid-column: 1/-1;
+}
+.row-span-2 {
+  grid-row: span 2;
+}
+
+.padding-mid {
+  padding: 4rem;
+}
+.padding-sm {
+  padding: 2rem;
+}
+.padding-big {
+  padding: 8rem;
+}
+
+.IMG-small {
+  width: 20%;
+  height: auto;
+}
+.justify-center {
+  justify-self: center;
+}
+/********************************/
+/******** H E A D E R S *********/
+/********************************/
+.section-header {
+  margin-left: 6rem;
+  margin-bottom: 4rem;
+}
+.section-title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.section-subtitle {
+  font-size: 1.6rem;
+  font-weight: 100;
+  font-style: italic;
+}
+
+/********************************/
+/***** T Y P O G R A P H Y ******/
+/********************************/
+
+.title-small {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.title-med {
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 2.5rem;
+}
+
+.text-footnote {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 100;
+
+  letter-spacing: 0.05rem;
+  line-height: 1.1;
+}
+
+/********************************/
+/******** C U R S O R S *********/
+/********************************/
+
+.section-hero button,
+.section-hero a,
+.section-CV-intro a,
+nav a {
+  cursor: url("/IMG/Cursor/Cursor10x10_HOVER-02.svg"), auto;
+}
+.section-CV-intro {
+  cursor: url("/IMG/Cursor/Cursor10x10_BASIC-01.svg"), auto;
+}
+button {
+  cursor: pointer;
+}
+
+/********************************/
+/********* F O O T E R **********/
+/********************************/
+.footer-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  border-top: 1px solid #bbbbbb;
+}
+.footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.footer-unit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.footer-unit-3 {
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.footer-unit-3 {
+  display: flex;
+  align-items: center;
+  padding: 0 5rem;
+}
+footer h3 {
+  margin-bottom: 0.4rem;
+}
+.btn-top {
+  fill: #ffffff;
+
+  width: 2rem;
+  height: 100%;
+  display: block;
+}
+.footer-menu {
+  gap: 1rem;
+  display: flex;
+  justify-content: start;
+  padding-top: 2rem;
+}
